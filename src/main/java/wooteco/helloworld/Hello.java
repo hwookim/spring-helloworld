@@ -6,8 +6,8 @@ import org.springframework.data.annotation.Id;
 public class Hello {
     @Id
     private Long id;
-    private final String name;
-    private final LocalDateTime createdAt;
+    private String name;
+    private LocalDateTime createdAt;
 
     public Hello(String name) {
         this.name = name;
